@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="none" name="Failed suite [Failed suite [Surefire suite]]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="none" name="Surefire test(failed)(failed)">
+    <classes>
+      <class name="com.tangerine.ConvergedBillingSmokeTest">
+        <methods>
+          <include name="loginpage"/>
+          <include name="ProductBundling"/>
+          <include name="ApprovingInwardstock"/>
+        </methods>
+      </class> <!-- com.tangerine.ConvergedBillingSmokeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Surefire suite]] -->

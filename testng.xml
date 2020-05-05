@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Converged Billing QA testing">
+
+
+	<listeners>
+		<listener
+			class-name="com.tangerine.qa.ExtentReportListner.ExtentReporterNG" />
+	</listeners>
+
+
+	 <test name="converged Billing QA testing"> 
+	<classes>
+	 <class name="com.tangerine.qa.testcases.HomePageTest" /> 
+	 <class name="com.tangerine.qa.testcases.LoginPageTest" /> 
+	 <class name="com.tangerine.qa.testcases.ResellerRequestsTest" />
+	 <class name="com.tangerine.qa.testcases.ResellerRequestApprovalsTest"/>
+	 <class name="com.tangerine.qa.testcases.ResellerCreationTest" />
+	 <class name="com.tangerine.qa.testcases. Screenshots" />
+	  </classes> 
+		</test> 
+	
+
+
+
+
+</suite> 
